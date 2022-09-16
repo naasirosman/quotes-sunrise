@@ -1,0 +1,230 @@
+:root {
+    --zoroblue: #0f495b;
+    --roboto: font-family: 'Roboto Flex', sans-serif;
+  }
+
+body {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+#banner {
+    background-color: var(--zoroblue);
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.titleImage {
+    width: 57rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: left;
+    display: flex;
+    color: #383838;
+    justify-content: space-around;
+    align-items: center;
+}
+.zoroQuotationsImg {
+    width: 20rem;
+}
+.zoroQuotationsTitle {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.instructions {
+    width: 55rem;
+}
+.zoroQuotations {
+    margin-bottom: 2rem;
+}
+.zoroQuotationsText {
+    font-size: 0.9rem;
+    line-height: 150%;
+    padding-right: 6rem;
+}
+
+
+
+.manageQuotationsImg {
+    width: 20rem;
+}
+.manageQuotationsTitle {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    padding-left: 6rem;
+}
+.instructions {
+    width: 55rem;
+}
+.manageQuotations {
+    margin-bottom: 2rem;
+}
+.manageQuotationsText {
+    font-size: 0.9rem;
+    line-height: 150%;
+    padding-left: 6rem;
+}
+.orange {
+    color: #d24601;
+}
+.orange:hover {
+    text-decoration: underline;
+}
+.faqTitle {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.featuresImg {
+  width: 25rem;
+}
+.featuresImg:hover {
+  -webkit-filter: brightness(110%);
+}
+.featuresTitle {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.features {
+  width: 40rem;
+}
+.more {
+
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: left;
+    display: flex;
+    color: #383838;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.featuresText {
+  font-size: 0.9rem;
+  line-height: 150%;
+  padding-right: 6rem;
+}
+
+
+
+
+
+
+
+#footer {
+    height: 15rem;
+    width: 100%;
+    color: white;
+    background-color: #0f495b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    border-top: 0.8rem solid #d24601;
+}
+#learnMore {
+    height: 10rem;
+    width: 100%;
+    color: black;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bold;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+
+
+  .menu{
+    margin: 0 auto;
+    padding: 40px;
+    width: 66.5rem;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  label {
+      display: block;
+      margin: 0 0 4px 0;
+      padding : 15px 15px 15px 0;
+      line-height: 1;
+      cursor :pointer;
+      border-bottom: 1px solid lightgray;
+      font-size: 1.4rem;
+      font-weight: 550;
+      text-align: left;
+  }
+  .question{
+    position: relative;
+  }
+  input {
+    display: none;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 1.1rem;
+    line-height: 200%;
+    text-align: left;
+    font-weight: 100rem;
+  }
+
+  /*Open tab*/
+  
+  #type1:checked ~ #links1 li{
+    height: 150px;
+    opacity: 1;
+    padding-top: 15px;
+  }
+  #type3:checked ~ #links3 li{
+    height: 105px;
+    opacity: 1;
+    padding-top: 15px;
+  }
+  #type2:checked ~ #links2 li {
+    height: 80px;
+    opacity: 1;
+    padding-top: 15px;
+  }
+  #type4:checked ~ #links4 li{
+    height: 110px;
+    opacity: 1;
+    padding-top: 15px;
+  }
+
+  
+  label:hover {
+    text-decoration: underline;
+  }
+  
